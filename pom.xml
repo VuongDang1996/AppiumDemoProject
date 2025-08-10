@@ -43,7 +43,7 @@
                 <version>3.3.0</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>testng-inspection.xml</suiteXmlFile>
+                        <suiteXmlFile>testng-checkout-inspection.xml</suiteXmlFile>
                     </suiteXmlFiles>
                     <environmentVariables>
                         <ANDROID_HOME>/Users/vuong/Library/Android/sdk</ANDROID_HOME>

@@ -30,8 +30,9 @@ public class BaseTest {
         } else if (platform.equalsIgnoreCase("ios")) {
             XCUITestOptions options = new XCUITestOptions()
                 .setPlatformName("iOS")
-                .setDeviceName("iPhone 15") // Update to your preferred iOS simulator
-                .setApp("/Users/vuong/Documents/Automation Learning/AppiumDemoProject/apps/MyRNDemoApp.app")
+                .setPlatformVersion("18.6")
+                .setDeviceName("iPhone 16 Pro")
+                .setBundleId("com.saucelabs.mydemoapp.rn")
                 .setAutomationName("XCUITest");
             driver = new IOSDriver(new URL("http://127.0.0.1:4723"), options);
         }

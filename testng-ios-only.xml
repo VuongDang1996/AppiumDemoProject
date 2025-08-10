@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="iOS Test Suite">
+    <test name="iOS Appium Tests">
+        <parameter name="platform" value="ios"/>
+        <classes>
+            <class name="com.saucelabs.tests.IOSBasicTest"/>
+        </classes>
+    </test>
+</suite>
