@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="AndroidOnlySuite">
+
+    <test name="Android Tests Only">
+        <parameter name="platform" value="android"/>
+        <classes>
+            <class name="com.saucelabs.tests.DemoAppTests">
+                <methods>
+                    <include name="testSuccessfulLogin"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
